@@ -1,51 +1,7 @@
 # 150 Advanced Python Scripts For Beginners
 
 # ⚙️ Automation
-## Rename multiple files in a folder
-Renaming files manually is tedious. With this Python script, you can bulk rename files in a folder in a structured way, adding prefixes, suffixes, numbers, or even replacing text patterns.
-
-```
-import os
-
-def rename_files(folder, prefix="", suffix="", replace=None, replace_with=None, ext=None):
-    if not os.path.exists(folder): return print("❌ Folder not found!")
-
-    for filename in sorted(os.listdir(folder)):
-        path = os.path.join(folder, filename)
-        if not os.path.isfile(path): continue
-        
-        name, extension = os.path.splitext(filename)
-        if ext and extension.lower() != f".{ext.lower()}": continue
-        
-        name = name.replace(replace, replace_with) if replace and replace_with else name
-        new_name = f"{prefix}{name}{suffix}{extension}"
-        
-        try:
-            os.rename(path, os.path.join(folder, new_name))
-            print(f"✅ {filename} ➝ {new_name}")
-        except Exception as e:
-            print(f"❌ Error renaming {filename}: {e}")
-
-### Example Usage
-rename_files("C:/Users/You/Documents/TestFiles", prefix="IMG_", suffix="_2024", replace="old", replace_with="new", ext="jpg")
-```
-
-### Walkthrough
-#### 1. Import the os Module
-```
-import os
-```
-The os module helps interact with the file system (listing files, renaming, and handling paths).
-
-#### 1. Import the os Module
-```
-import os
-```
-The os module helps interact with the file system (listing files, renaming, and handling paths).
-
-### Example:
-
-
+- Rename multiple files in a folder
 Extract text from PDF files
 Merge multiple PDFs
 Convert PDF to Word
