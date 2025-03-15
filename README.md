@@ -1,167 +1,173 @@
-# 150 Advanced Python Scripts For Beginners
+# 150 Python Scripts For Beginners
 
-# ⚙️ Automation
-- Rename multiple files in a folder
-Extract text from PDF files
-Merge multiple PDFs
-Convert PDF to Word
-Automate sending emails
-Scrape emails from websites
-Convert speech to text
-Convert text to speech
-Convert a CSV file to JSON
-Convert XML to JSON
-Monitor file changes in a folder
-Automate WhatsApp messages using Twilio
-Automate Instagram login and posting
-Automate Facebook posting
-Auto-login to Gmail and fetch emails
-Schedule Python scripts to run at specific times
-Check internet speed automatically
-Auto-submit Google Forms
-Auto-login and scrape data from a website
-Extract phone numbers from text files
-Create an auto-typing bot
-Monitor changes on a website and notify via email
-Auto-respond to specific Telegram messages
-Automate Twitter posts
-Extract metadata from images
+🏗 Basic Python Concepts (20)
+- Print "Hello, World!"
+- Swap Two Variables
+- Check if a Number is Even or Odd
+- Find the Largest of Three Numbers
+- Convert Celsius to Fahrenheit
+- Calculate the Factorial of a Number
+- Generate Fibonacci Series
+- Find the Sum of Digits of a Number
+- Reverse a String
+- Check if a String is a Palindrome
+- Find the Length of a List Without len()
+- Sort a List Without sort()
+- Find the Maximum & Minimum in a List
+- Find the Average of a List of Numbers
+- Remove Duplicates from a List
+- Find the Most Frequent Element in a List
+- Merge Two Lists Without Duplicates
+- Count Unique Elements in a List
+- Find the Intersection of Two Lists
+- Find the Union of Two Lists
 
-📊 Data Science & Analysis
-Analyze CSV files with Pandas
-Create a bar chart from a dataset
-Create an interactive dashboard with Plotly
-Perform real-time sentiment analysis on tweets
-Generate heatmaps from correlation data
-Predict house prices using machine learning
-Detect spam emails using ML
-Perform web scraping with BeautifulSoup
-Real-time stock price tracking
-Weather forecast prediction using API
-Extract data from Excel sheets
-Convert JSON to Pandas DataFrame
-Automate data visualization
-Fetch cryptocurrency prices from an API
-Create a simple recommendation system
-Predict movie ratings using ML
-Analyze social media trends
-Perform OCR (Optical Character Recognition) on images
-Analyze Google Trends data
-Fetch and analyze COVID-19 data
-Automate Google Sheets updates
-Real-time air quality index tracker
-Fetch real-time news headlines
-Generate word clouds from text data
-Automate data backups to Google Drive
+🔢 Math & Numbers (20)
+- Check if a Number is Prime
+- Find Prime Numbers in a Range
+- Check if a Number is an Armstrong Number
+- Calculate the LCM (Least Common Multiple)
+- Calculate the GCD (Greatest Common Divisor)
+- Find Square Root Without math Module
+- Generate a Random Number
+- Convert Decimal to Binary
+- Find the Sum of First N Natural Numbers
+- Check if Two Numbers Are Co-prime
+- Find the Sum of All Prime Numbers Below N
+- Generate a List of Fibonacci Numbers
+- Calculate Compound Interest
+- Find Perfect Numbers in a Range
+- Generate a Multiplication Table for a Number
+- Calculate the Power of a Number Without pow()
+- Convert Binary to Decimal
+- Convert Decimal to Octal
+- Convert Decimal to Hexadecimal
+- Find the Greatest of N Numbers
 
-🤖 AI & Machine Learning
-Build a chatbot with OpenAI API
-Implement facial recognition
-Predict handwriting digits using TensorFlow
-Train a custom image classifier
-Implement a text summarizer
-Train a sentiment analysis model
-Create an AI music generator
-Generate AI-powered captions for images
-Train an AI for playing Tic-Tac-Toe
-Implement an AI-powered voice assistant
-Generate fake data using AI models
-Predict customer churn using ML
-Build a speech recognition AI
-Create an AI-powered resume screener
-Detect emotions from text
-Convert text into handwriting using AI
-Train an AI to detect fraud transactions
-Detect anomalies in time-series data
-Implement an AI-powered video summarizer
-Use AI to generate poetry
+📄 Strings & Text Processing (15)
+- Count Vowels & Consonants in a String
+- Reverse Words in a Sentence
+- Remove Punctuation from a String
+- Find the Most Frequent Word in a String
+- Check if Two Strings Are Anagrams
+- Capitalize First Letter of Every Word
+- Find the Number of Words in a Sentence
+- Replace a Word in a String
+- Count the Occurrences of Each Character
+- Find the Longest Word in a Sentence
+- Check If a String Is a Pangram
+- Find All Permutations of a String
+- Extract Numbers from a String
+- Sort Words in Alphabetical Order
+- Convert Camel Case to Snake Case
 
-💰 Finance & Trading
-Automate stock trading using Alpaca API
-Fetch real-time Forex exchange rates
-Convert between different currencies
-Track and analyze expenses
-Calculate loan EMI
-Fetch historical stock market data
-Automate cryptocurrency trading
-Fetch and analyze IPO data
-Scrape data from financial news websites
-Automate invoice generation
-Create a compound interest calculator
-Monitor Bitcoin and Ethereum price changes
-Calculate mortgage payments
-Fetch economic indicators from APIs
-Create an expense tracker with charts
-Automate credit card bill payment reminders
-Track investments in mutual funds
-Forecast stock market trends using ML
-Automate income tax calculations
-Calculate profit and loss for businesses
+📂 File Handling (15)
+- Read a File and Print Its Contents
+- Write to a File
+- Append Text to an Existing File
+- Count the Number of Lines in a File
+- Copy Content from One File to Another
+- Find and Replace Text in a File
+- Check if a File Exists
+- List All Files in a Directory
+- Rename Multiple Files in a Folder
+- Delete a File
+- Get File Size in Bytes
+- Convert Text File to List
+- Extract Email Addresses from a File
+- Find Duplicate Lines in a File
+- Compress a File Using ZIP
 
-🛡️ Cybersecurity & Ethical Hacking
-Password strength checker
-Create a secure password generator
-Detect phishing websites
-Implement a basic keylogger
-Encrypt and decrypt text using AES
-Scan open ports on a server
-Extract metadata from files
-Perform SQL injection vulnerability checks
-Create a brute-force password cracker
-Implement a simple firewall
-Track website downtime
-Automate VPN connection
-Detect anomalies in network traffic
-Scrape and analyze dark web data
-Detect malicious links in emails
-Implement two-factor authentication
-Secure file transfer with encryption
-Build a basic DDoS attack simulator
-Monitor unauthorized access attempts
-Automate password reset for multiple accounts
+🔁 Loops & Iteration (15)
+- Print a Multiplication Table
+- Print a Pyramid Pattern
+- Reverse a List Using a Loop
+- Find the Sum of Elements in a List
+- Count the Occurrences of an Element in a List
+- Find the Second Largest Number in a List
+- Remove Odd Numbers from a List
+- Flatten a Nested List
+- Merge Two Sorted Lists
+- Find the Union of Two Lists
+- Print Prime Numbers Using Loops
+- Generate Pascal’s Triangle
+- Find Factorial Using Recursion
+- Create a Simple Number Guessing Game
+- Create a Loop-Based Timer
 
-🎮 Game Development
-Create a Flappy Bird clone
-Build a Snake game
-Implement a Tetris game
-Create a Tic-Tac-Toe game
-Develop a Rock-Paper-Scissors game
-Implement a number guessing game
-Create a multiplayer chess game
-Develop a Space Invaders clone
-Implement a Pong game
-Create a simple RPG battle simulator
-Develop a car racing game
-Add AI opponents to a game
-Implement game leaderboards
-Add in-game currency to a game
-Create a 3D game environment
+📅 Date & Time (10)
+- Print Current Date and Time
+- Convert a String to a Date
+- Find the Difference Between Two Dates
+- Check if a Year is a Leap Year
+- Display the Calendar of a Month
+- Find the Day of the Week for a Given Date
+- Add Days to a Date
+- Convert Seconds to HH:MM:SS Format
+- Measure Execution Time of a Code Block
+- Get Current Timezone Information
 
-📂 File Handling & System Utilities
-Create a system performance monitor
-Clean up duplicate files
-Monitor CPU and RAM usage
-Create a log file analyzer
-Zip and unzip files automatically
-Convert image formats automatically
-Organize files by date
-Implement a clipboard history manager
-Automate system shutdown & restart
-Create a file encryption tool
-Backup important system files
-Fetch and analyze system logs
-Convert images to PDFs
-Monitor system temperature
-Create a disk usage analyzer
-Implement a secure file deletion tool
+🌐 Web Scraping & APIs (10)
+- Fetch Data from a Website (Requests Module)
+- Extract All Links from a Webpage
+- Scrape Weather Data from a Website
+- Download an Image from a URL
+- Send an API Request & Parse JSON Response
+- Scrape News Headlines from a Website
+- Download Web Page Source Code
+- Scrape Wikipedia Data
+- Check Website Status (Up/Down Checker)
+- Extract Meta Tags from a Webpage
 
-🔗 APIs & Web Scraping
-Scrape job listings from LinkedIn
-Scrape product prices from Amazon
-Scrape Google search results
-Scrape sports scores from ESPN
-Automate Google search queries
-Fetch NASA space images via API
-Get real-time earthquake data
-Scrape real-time weather data
-Automate news article summaries
+🏗 Automation Scripts (10)
+- Sort Files by Type in a Folder
+- Create a Zip Backup of a Folder
+- Delete Empty Folders in a Directory
+- Download YouTube Videos
+- Automatically Rename Files Based on Content
+- Convert Images to PDF
+- Schedule a Python Script to Run at a Specific Time
+- Auto Shutdown Computer at a Given Time
+- Extract Text from Images (OCR with Tesseract)
+- Batch Resize Images in a Folder
+
+🔐 Security & Encryption (10)
+- Generate a Random Password
+- Hash a Password Using SHA256
+- Encrypt & Decrypt a Message Using Base64
+- Create a Simple Caesar Cipher Encoder
+- Check If a Password is Strong
+- Generate QR Code from Text
+- Check If a Website Has SSL Enabled
+- Mask Credit Card Numbers in a Text File
+- Encrypt & Decrypt a File
+- Scrape Data from a Login-Protected Page
+
+🖥 System & OS Interaction (10)
+- Check CPU and Memory Usage
+- Get System Information (OS, Processor, RAM)
+- Shutdown or Restart Computer
+- List Installed Packages in Python
+- Check Disk Space Usage
+- Monitor Folder for New Files
+- Kill a Running Process by Name
+- Create and Manage Virtual Environments
+- Find Large Files in a Directory
+- Automate Screenshot Capture
+
+🎮 Fun & Mini Games (15)
+- Guess the Number Game
+- Rock, Paper, Scissors Game
+- Simple Tic-Tac-Toe Game
+- Dice Rolling Simulator
+- Hangman Game
+- Word Scramble Game
+- Maze Solver Using DFS Algorithm
+- Sudoku Solver
+- Flappy Bird Clone in Python (Pygame)
+- Simple Snake Game in Python (Pygame)
+- ASCII Art Generator
+- Text-Based Adventure Game
+- Slot Machine Simulator
+- Number Memory Game
+- Blackjack Card Game
