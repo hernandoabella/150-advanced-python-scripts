@@ -1,4 +1,4 @@
-# 🔢 Check if a Number is Even or Odd  
+# Check if a Number is Even or Odd  
 
 ```python
 num = int(input("Enter a number: "))
@@ -13,21 +13,21 @@ This script checks whether a given number is **even or odd** by using the **modu
 
 ---
 
-### 📖 Walkthrough:
+## Walkthrough
 
-### 🏁 **Step 1: Take User Input**  
-We first ask the user to **input a number**:
+### Step 1: Take User Input  
+We first ask the user to input a number:
 
 ```python
 num = int(input("Enter a number: "))
 ```
-✅ `input()` takes user input as a string.  
-✅ `int()` converts it into an **integer**.
+- `input()` takes user input as a string.  
+- `int()` converts it into an integer.
 
 ---
 
-### 🔢 **Step 2: Check if the Number is Even or Odd**  
-We use the **modulus operator (`%`)** to check if the number is divisible by `2`:
+### Step 2: Check if the Number is Even or Odd  
+We use the modulus operator (`%`) to check if the number is divisible by `2`:
 
 ```python
 if num % 2 == 0:
@@ -36,16 +36,16 @@ else:
     print("The number is Odd")
 ```
 
-💡 **How does it work?**  
-- If `num % 2 == 0`, the number is **even**.  
-- Otherwise, it's **odd**.
+#### How does it work?  
+- If `num % 2 == 0`, the number is even.  
+- Otherwise, it's odd.
 
 ---
 
-### 📢 **Step 3: Print the Result**  
+### Step 3: Print the Result  
 After checking, the script prints whether the number is **Even** or **Odd**.
 
-#### ✅ Example Runs:  
+#### Example Runs  
 ```
 Enter a number: 8
 The number is Even
@@ -57,8 +57,8 @@ The number is Odd
 
 ---
 
-### 🚀 **Next Steps**  
-Try modifying the script to:
-- Handle **negative numbers**.
-- Check for **zero** separately.
-- Allow the user to enter multiple
+## Next Steps  
+Try modifying the script to:  
+- Handle negative numbers.  
+- Check for zero separately.  
+- Allow the user to enter multiple numbers in one run.
